@@ -53,8 +53,9 @@ export function TestmonialCard({ heading, content }) {
                     fontSize={'4xl'}
                     py={2}
                     fontWeight={'bold'}
-                    fontFamily={'Sansita Swashed'}
-                    color={useColorModeValue('white', 'black')}
+                    fontFamily={'Outfit'}
+                    bg={'linear-gradient(70deg, #fc0352 0%, #fc03b6 30%, #6f03fc 100%)'}
+                    bgClip={'text'}
                 >
                     {heading}
                 </chakra.h1>

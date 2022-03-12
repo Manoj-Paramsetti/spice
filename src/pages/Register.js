@@ -71,7 +71,6 @@ export default function Register() {
                 setImageUrl(url);
             })
             .catch((error) => {
-                console.log(error);
                 switch (error.code) {
                     case 'storage/object-not-found':
                         // File doesn't exist
@@ -402,6 +401,12 @@ export default function Register() {
                                         {({ field, form }) => (
                                             <FormControl isInvalid={form.errors.teamMembers && form.touched.teamMembers}>
                                                 <FormLabel>Team Members (including Leader)</FormLabel>
+                                                <FormLabel 
+                                                    color={'grey'}
+                                                    fontSize={'14px'}
+                                                >
+                                                    Ex:&#10;John Doe - UG - CSE - 3rd Year, Donh Joe - UG - ECE - 2nd Year
+                                                </FormLabel>
                                                 <Textarea
                                                     placeholder='Full Name - UG/PG - Department - Year of Study&#10;Ex:&#10;John Doe - UG - CSE - 3rd Year, Donh Joe - UG - ECE - 2nd Year'
                                                     {...field}
@@ -482,7 +487,7 @@ export default function Register() {
                                         {({ field, form }) => (
                                             <FormControl isInvalid={form.errors.projectAbstract && form.touched.projectAbstract}>
                                                 <FormLabel>Project Abstract</FormLabel>
-                                                <Input type={"file"} onChange={(e) => { setFile(e.target.files[0]) }} />
+                                                <input type={"file"} accept={'application/pdf'} onChange={(e) => { setFile(e.target.files[0]) }} />
                                                 <Button onClick={upload}>Upload</Button>
                                                 <FormErrorMessage>{form.errors.projectAbstract}</FormErrorMessage>
                                             </FormControl>
