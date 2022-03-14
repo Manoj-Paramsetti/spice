@@ -176,14 +176,14 @@ const Home = () => {
                         icon={<BsPerson size={'3em'} />}
                     />
                     <StatsCard
-                        points={["Only engineering students are allowed to participate.", " Maximum of 3 members per team.", " A Registration fee of ₹100 has to be paid ."]}
+                        points={["Only engineering students are allowed to participate.", " Maximum of 3 members per team.", " A Registration fee of ₹100 (per team) has to be paid ."]}
                         title={'Eligibility'}
                         desc={""}
                         icon={<FiServer size={'3em'} />}
                     />
                     <StatsCard
                         title={'Call for Abstracts'}
-                        desc={"The last date to submit the abstract is 17-03-2K22. Candidates will be informed about their selection by 20-03-2K22."}
+                        desc={"The last date to submit the abstract is 24-03-2022. Candidates will be informed about their selection by 30-03-2022."}
                         icon={<GoLocation size={'3em'} />}
                     />
                     <StatsCard
