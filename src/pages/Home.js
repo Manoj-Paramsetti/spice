@@ -118,7 +118,7 @@ const Home = () => {
                         marginTop={{ base: '3', sm: '0' }}>
                         <Heading marginTop="1">
                             <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
-                                SPICE 2022
+                                SPICE 2K22
                             </Link>
                         </Heading>
                         <Text
@@ -128,7 +128,7 @@ const Home = () => {
                             fontSize="lg"
                             align="justify">
                             Sathyabama Project Innovation Competition and Exhibition
-                            (SPICE 2022) is a Inter-Departmental Project Competition, organized by School of Computing to encourage students to apply their
+                            (SPICE 2K22) is a Inter-Departmental Project Competition, organized by School of Computing to encourage students to apply their
                             knowledge, skill, passion, and creativity to technology solutions
                             that can make a difference to the world today.
                         </Text>
@@ -183,7 +183,7 @@ const Home = () => {
                     />
                     <StatsCard
                         title={'Call for Abstracts'}
-                        desc={"The last date to submit the abstracts is 17-03-2022. Candidates will be informed about their selection by 20-03-2022."}
+                        desc={"The last date to submit the abstracts is 17-03-2K22. Candidates will be informed about their selection by 20-03-2K22."}
                         icon={<GoLocation size={'3em'} />}
                     />
                     <StatsCard

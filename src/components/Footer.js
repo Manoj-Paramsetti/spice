@@ -79,7 +79,7 @@ export default function SmallCentered() {
                     justify={{ base: 'center', md: 'space-between' }}
                     align={{ base: 'center', md: 'center' }}>
                     <Text>
-                        © 2022 Sathyabama Institute of Science and Technology, All rights reserved.
+                        © 2K22 Sathyabama Institute of Science and Technology, All rights reserved.
                     </Text>
                     <Stack direction={'row'} spacing={6}>
                         <SocialButton label={'Twitter'} href={'#'}>
