@@ -128,7 +128,8 @@ const Dashboard = () => {
             name: 'Team Name',
             selector: row => row.teamName,
             sortable: true,
-            wrap: true
+            wrap: true,
+            grow: 4
         },
         {
             name: 'Team Size',
@@ -147,19 +148,6 @@ const Dashboard = () => {
             selector: row => row.mentorName,
             sortable: true,
             grow: 2,
-            wrap: true
-        },
-        {
-            name: 'Mentor Designation',
-            selector: row => row.mentorDesignation,
-            sortable: true,
-            grow: 2,
-            wrap: true
-        },
-        {
-            name: 'Team Leader Name',
-            selector: row => row.teamLeaderName,
-            sortable: true,
             wrap: true
         },
         {
@@ -224,9 +212,11 @@ const Dashboard = () => {
         },
         {
             name: 'Project Abstract',
-            selector: row => row.projectAbstract,
+            selector: row => <u><a target={'_blank'} rel="noreferrer" href={row.projectAbstract}>View Abstract</a></u>,
             sortable: true,
-            wrap: true
+            wrap: true,
+            grow: 2,
+            button: true
         },
         {
             name: 'Event Name',
@@ -289,7 +279,6 @@ const Dashboard = () => {
                         <DataTable
                             columns={columns}
                             data={filteredItems}
-                            
                             defaultSortField="name"
                             striped
                             pagination
