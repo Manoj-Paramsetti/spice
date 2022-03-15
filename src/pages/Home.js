@@ -176,7 +176,7 @@ const Home = () => {
                         icon={<BsPerson size={'3em'} />}
                     />
                     <StatsCard
-                        points={["Only engineering students are allowed to participate.", " Maximum of 3 members per team.", " A Registration fee of ₹100 (per team) has to be paid ."]}
+                        points={["Only engineering students are allowed to participate.", "Maximum of 3 members per team.", "A Registration fee of ₹100 (per team)"]}
                         title={'Eligibility'}
                         desc={""}
                         icon={<FiServer size={'3em'} />}
