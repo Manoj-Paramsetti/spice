@@ -126,13 +126,13 @@ const credits= [
                         <Center>
                         { 
                             info.github &&
-                            <Button colorScheme='gray' my={2} leftIcon={<FaGithub />}>
+                            <Button colorScheme='gray' my={2} onClick={()=> window.open(info.github, "_blank")}leftIcon={<FaGithub />}>
                                 github
                             </Button>
                         } &nbsp;&nbsp;
                         {
                             info.linkedin &&
-                            <Button colorScheme='linkedin' leftIcon={<FaLinkedin />}>
+                            <Button colorScheme='linkedin' onClick={()=> window.open(info.linkedin, "_blank")} leftIcon={<FaLinkedin />}>
                                 linkedin
                             </Button>
                         }
