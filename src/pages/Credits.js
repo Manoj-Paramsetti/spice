@@ -107,7 +107,7 @@ const credits= [
                     </Heading>
                 </Stack>
             </Container >
-            <SimpleGrid minChildWidth='400px' maxW={'auto'}>
+            <SimpleGrid minChildWidth='320px' maxW={'auto'}>
                 {
                     credits.map((info, i) => 
                     <Box p={'5px'} m ={'20px'}borderRadius={'5px'} boxShadow='2xl'>
