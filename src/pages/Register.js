@@ -171,7 +171,7 @@ export default function Register() {
                             fontSize={{ base: '2xl', sm: '2xl', md: '3xl' }}>
                             Submission Details
                         </Heading>
-                        <Text color={'gray.500'} fontSize={{ base: 'sm', sm: 'md' }}>
+                        <Text color={useColorModeValue('gray.500', 'white.500')} fontSize={{ base: 'sm', sm: 'md' }}>
                             We're looking for amazing engineers just like you! Become a part
                             of our rockstar engineering team and skyrocket your career!
                         </Text>

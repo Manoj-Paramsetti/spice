@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 //durga, siva, manoj, sandeep, remaining all frontend
-export default function Credits() {
+export default function Recognition() {
 const credits= [
     {
         name: "S. Durgaprasad ",
@@ -101,9 +101,8 @@ const credits= [
                         fontSize={{ base: '2xl', sm: '4xl', md: '5xl' }}
                         fontFamily={'Outfit'}
                         bg={'linear-gradient(70deg, #fc0352 0%, #fc03b6 30%, #6f03fc 100%)'}
-                        bgClip={'text'}
-                        lineHeight={'110%'}>
-                        Credits 
+                        bgClip={'text'}>
+                        Recognition 
                     </Heading>
                 </Stack>
             </Container >

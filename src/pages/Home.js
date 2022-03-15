@@ -1,5 +1,5 @@
 import {
-    Box, Button, chakra, Container, Flex, Heading, HStack, Image, Link, SimpleGrid, Stack, Stat, StatHelpText, StatLabel,
+    Box, Button, Center, chakra, Container, Flex, Heading, HStack, Image, Link, SimpleGrid, Stack, Stat, StatHelpText, StatLabel,
     StatNumber, Text, useBreakpointValue, useColorModeValue, VStack
 } from '@chakra-ui/react';
 import React, { useRef } from 'react';
@@ -208,21 +208,21 @@ function StatsCard({ title, stat, icon, desc, points }) {
             rounded={'lg'}>
             <Flex justifyContent={'space-between'}>
                 <Box pl={{ base: 2, md: 4 }}>
-                    <StatLabel fontWeight={'bold'} isTruncated>
+                    <StatLabel fontSize={'18px'} fontWeight={'bold'} isTruncated>
                         {title}
                     </StatLabel>
-                    <StatNumber fontSize={'2xl'} fontWeight={'medium'}>
+                    <StatNumber fontSize={'xl'} fontWeight={'medium'}>
                         {stat}
                     </StatNumber>
-                    <StatHelpText>
+                    <StatHelpText fontSize={'15px'}>
                         {desc}
                     </StatHelpText>
                     {points && points.map((point, index) =>
-                        <StatHelpText key={index}>
+                        <StatHelpText key={index} fontSize={'15px'}>
                             {point}
                         </StatHelpText>
                     )
-                    }
+                }
                 </Box>
                 <Box
                     my={'auto'}
