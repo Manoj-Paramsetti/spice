@@ -11,6 +11,7 @@ import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import Dashboard from './pages/Dashboard';
 import Thankyou from './pages/Thankyou';
+import Credits from './pages/Credits';
 import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/credits" element={<Credits />} />
           <Route path="/thank-you" element={<Thankyou />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -30,8 +30,8 @@ const Links = [
         name: 'Register',
         href: '/register'
     }, {
-        name: 'About',
-        href: '/about'
+        name: 'Credits',
+        href: '/credits'
     },
 ];
 
