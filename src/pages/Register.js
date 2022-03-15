@@ -44,11 +44,11 @@ function makeRandomString(length) {
 const testimonials = [
     {
         heading: "Project Mania",
-        content: "A Project Competition for II Yr / III Yr / IV Yr Students"
+        content: "A Project Competition for Engineering Students"
     },
     {
         heading: "TechCanvas",
-        content: "Poster Competition for II Yr / III Yr / IV Yr Students"
+        content: "Poster Competition for Engineering Students"
     },
 ];
 
@@ -95,8 +95,6 @@ export default function Register() {
         if (file == null)
             return;
         uploadBytes(storageRef, file).then((snapshot) => {
-            console.log('Uploaded a blob or file!');
-            console.log(snapshot);
             getImageLink();
             setbuttonState(false)
         });
@@ -199,7 +197,6 @@ export default function Register() {
                             actions.setSubmitting(false);
                             values.projectAbstract = imageUrl;
                             values.eventName = eventName;
-                            console.log(values);
                             addResponse(values);
                             navigate("/thank-you");
                         }}
