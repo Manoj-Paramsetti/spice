@@ -85,6 +85,15 @@ const credits= [
         github: "",
         image: "https://firebasestorage.googleapis.com/v0/b/web2all-allolab.appspot.com/o/Members%2FSindhu.jpeg?alt=media&token=84fcd512-c54d-4a85-bacc-3fbcb80cf105",
     },
+    {
+        name: "Bayana Janya",
+        role: "Design",
+        registerNumber: "40110169",
+        linkedin: "https://www.linkedin.com/in/janyabayana/",
+        branch: "CSE",
+        github: "https://github.com/JanyaBayana",
+        image: "https://firebasestorage.googleapis.com/v0/b/web2all-allolab.appspot.com/o/Members%2FJanya.jpeg?alt=media&token=fd72089b-501d-4037-be4d-853d630da8b5",
+    },
 ];
 
 
