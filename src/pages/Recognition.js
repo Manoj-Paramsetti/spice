@@ -59,7 +59,7 @@ const credits= [
         image: "https://firebasestorage.googleapis.com/v0/b/web2all-allolab.appspot.com/o/Members%2FPradeep.jpeg?alt=media&token=eaa237e6-602b-4fdc-937f-04d683b510cd",
     },
     {
-        name: "Rohith Kumar",
+        name: "Rohit Kumar",
         role: "Front End",
         registerNumber: "40731081",
         linkedin: "https://www.linkedin.com/in/rohit-kumar-s-63991b20a/",
