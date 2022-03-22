@@ -183,7 +183,7 @@ const Home = () => {
                     />
                     <StatsCard
                         title={'Call for Abstracts'}
-                        desc={"The last date to submit the abstract is 24-03-2022. Candidates will be informed about their selection by 30-03-2022."}
+                        desc={"The last date to submit the abstract is 04-04-2022. Candidates will be informed about their selection by 07-04-2022. The date of event is 11-04-2022"}
                         icon={<GoLocation size={'3em'} />}
                     />
                     <StatsCard
