@@ -62,7 +62,7 @@ export default function SmallCentered() {
                 <Stack direction={'row'} spacing={6}>
                     <Link as={ReachLink} to={'/'}>Home</Link>
                     <Link as={ReachLink} to={'/register'}>Register</Link>
-                    <Link as={ReachLink} to={'/about'}>About</Link>
+                    <Link as={ReachLink} to={'/recognition'}>Recognition</Link>
                 </Stack>
             </Container>
 
@@ -79,7 +79,7 @@ export default function SmallCentered() {
                     justify={{ base: 'center', md: 'space-between' }}
                     align={{ base: 'center', md: 'center' }}>
                     <Text>
-                        © 2K22 Sathyabama Institute of Science and Technology, All rights reserved.
+                        © 2022 Sathyabama Institute of Science and Technology, All rights reserved.
                     </Text>
                     <Stack direction={'row'} spacing={6}>
                         <SocialButton label={'Twitter'} href={'#'}>
