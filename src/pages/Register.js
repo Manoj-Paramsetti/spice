@@ -195,8 +195,10 @@ export default function Register() {
                         }}
                         onSubmit={(values, actions) => {
                             actions.setSubmitting(false);
+                            console.log(imageUrl);
                             values.projectAbstract = imageUrl;
                             values.eventName = eventName;
+                            console.log(values);
                             addResponse(values);
                             navigate("/thank-you");
                         }}
@@ -484,6 +486,11 @@ export default function Register() {
                                         {({ field, form }) => (
                                             <FormControl isInvalid={form.errors.projectAbstract && form.touched.projectAbstract}>
                                                 <FormLabel>Project Abstract</FormLabel>
+                                                <FormLabel 
+                                                    color={'grey'}
+                                                    fontSize={'14px'}>
+                                                    Note: Only PDF format is supported
+                                                </FormLabel>
                                                 <input type={"file"} accept={'application/pdf'} onChange={(e) => { setFile(e.target.files[0]) }} />
                                                 <Button onClick={upload}>Upload</Button>
                                                 <FormErrorMessage>{form.errors.projectAbstract}</FormErrorMessage>
