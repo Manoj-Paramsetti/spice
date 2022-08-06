@@ -183,12 +183,17 @@ const Home = () => {
                     />
                     <StatsCard
                         title={'Call for Abstracts'}
-                        desc={"The last date to submit the abstract is 04-04-2022. Candidates will be informed about their selection by 07-04-2022. The date of event is 11-04-2022"}
+                        desc={"The last date to submit the abstract is 21-08-2022. The Date of event is on 29th & 30th August 2022"}
                         icon={<GoLocation size={'3em'} />}
                     />
                     <StatsCard
                         title={'Contact'}
-                        desc={"Phone Number: (044) 2450 3159 \nEmail ID: spice.soc@sathyabama.ac.in"}
+                        points={['Phone Number: (044) 2450 315',
+                        'Email ID: spice.soc@sathyabama.ac.in',
+                        'Durgaprasad S 832838481',
+                        'Sivasai Kumar Reddy 9566089074',
+                        'Saipradeep 7873684605']}
+                        desc={""}
                         icon={<GoLocation size={'3em'} />}
                     />
                 </SimpleGrid>
